@@ -1,0 +1,16 @@
+load the config
+path:log/11/16/11-16-19-41-51
+start time:11-16-19-41-51
+{'STEP': 2400, 'GAMMA': 0.9, 'FINAL_EPSILON': 0.01, 'REPLAY_SIZE': 50000, 'EPISODE': 400, 'STEP_SIZE': 0.025, 'GBEST_USED': False, 'INITIAL_EPSILON': 0.35, 'OK_EPS': 1.0, 'TEST': 10, 'BOUND_RANGE': [100, 100], 'INITIAL_VAULE': [0, 100, 0, 0], 'BATCH_SIZE': 16, 'MODEL_SAVE': True, 'TEST_BATCH_SIZE': 100}
+fig size: 80.0 DPI, size in inches [ 3.  4.]
+env init ok
+episode:0 ave_reward:-3.0 ave_distance:57.81855439884414 mini_state:[0, 100, 0, 0] minidistance:57.818554398844135
+episode:100 ave_reward:-2.5 ave_distance:57.81855439884414 mini_state:[0, 100, 0, 0] minidistance:57.818554398844135
+episode:200 ave_reward:-1.5 ave_distance:57.81855439884414 mini_state:[0, 100, 0, 0] minidistance:57.818554398844135
+episode:300 ave_reward:-4.0 ave_distance:57.81855439884414 mini_state:[0, 100, 0, 0] minidistance:57.818554398844135
+over time:11-16-19-42-00
+CONFIG saved
+MODEL saved
+gif drawed
+[[0, 100, 0, 0], [0, 100, 0, 0], [0, 100, 0, 0], [0, 100, 0, 0]]
+[57.818554398844135, 57.818554398844135, 57.818554398844135, 57.818554398844135]
