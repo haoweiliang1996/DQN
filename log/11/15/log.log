@@ -1,0 +1,9 @@
+Tue, 15 Nov 2016 21:15:14 four.py[line:48] INFO {'BOUND_RANGE': [100, 100], 'GBEST_USED': False, 'TEST_BATCH_SIZE': 100, 'INITIAL_VAULE': [0, 100, 0, 0], 'REPLAY_SIZE': 50000, 'STEP_SIZE': 0.025, 'EPISODE': 400, 'INITIAL_EPSILON': 0.35, 'FINAL_EPSILON': 0.01, 'GAMMA': 0.9, 'BATCH_SIZE': 16, 'MODEL_SAVE': True, 'TEST': 10, 'STEP': 2400, 'OK_EPS': 1.0}
+Tue, 15 Nov 2016 21:15:15 four.py[line:78] INFO fig size: 80.0 DPI, size in inches [ 3.  4.]
+Tue, 15 Nov 2016 21:15:15 four.py[line:132] INFO env init ok
+Tue, 15 Nov 2016 21:15:15 four.py[line:202] INFO model restores by file /home/haowei/PycharmProjects/DQN/model/model.ckpt
+Tue, 15 Nov 2016 21:15:22 four.py[line:91] INFO CONFIG saved
+Tue, 15 Nov 2016 21:15:22 four.py[line:94] INFO MODEL saved
+Tue, 15 Nov 2016 21:15:35 four.py[line:97] INFO gif drawed
+Tue, 15 Nov 2016 21:15:35 four.py[line:99] INFO [[0, 100, 0, 0], [0, 100, 0, 0], [0, 100, 0, 0], [0, 100, 0, 0]]
+Tue, 15 Nov 2016 21:15:35 four.py[line:100] INFO [57.818554398844135, 57.818554398844135, 57.818554398844135, 57.818554398844135]

@@ -1,0 +1,17 @@
+load the config
+path:log/11/16/11-16-12-06-51
+start time:11-16-12-06-51
+{'MODEL_SAVE': True, 'STEP_SIZE': 0.025, 'OK_EPS': 1.0, 'TEST_BATCH_SIZE': 100, 'REPLAY_SIZE': 50000, 'TEST': 10, 'INITIAL_EPSILON': 0.35, 'BATCH_SIZE': 16, 'GBEST_USED': False, 'STEP': 2400, 'EPISODE': 400, 'FINAL_EPSILON': 0.01, 'BOUND_RANGE': [100, 100], 'GAMMA': 0.9, 'INITIAL_VAULE': [0, 100, 0, 0]}
+fig size: 80.0 DPI, size in inches [ 3.  4.]
+env init ok
+model restores by file /home/haowei/PycharmProjects/DQN/model/model.ckpt
+episode:0 ave_reward:-1.5 ave_distance:57.81855439884414 mini_state:[0, 100, 0, 0] minidistance:57.818554398844135
+episode:100 ave_reward:-2.5 ave_distance:57.81855439884414 mini_state:[0, 100, 0, 0] minidistance:57.818554398844135
+episode:200 ave_reward:-2.5 ave_distance:57.81855439884414 mini_state:[0, 100, 0, 0] minidistance:57.818554398844135
+episode:300 ave_reward:-2.5 ave_distance:57.81855439884414 mini_state:[0, 100, 0, 0] minidistance:57.818554398844135
+over time:11-16-12-07-01
+CONFIG saved
+MODEL saved
+gif drawed
+[[0, 100, 0, 0], [0, 100, 0, 0], [0, 100, 0, 0], [0, 100, 0, 0]]
+[57.818554398844135, 57.818554398844135, 57.818554398844135, 57.818554398844135]
