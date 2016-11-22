@@ -74,15 +74,13 @@ GBEST_USED=CONFIG['GBEST_USED']
 MODEL_SAVE=CONFIG['MODEL_SAVE']
 ###
 INITIAL_VAULE=CONFIG['INITIAL_VAULE']
-
+DATA_FILE=CONFIG['DATA_FILE']
 plt.ion()
 fig=plt.figure(figsize=(3,4))
-tmp=np.loadtxt("data.csv",dtype="double",delimiter=",")
+tmp=np.loadtxt("input_data/"+DATA_FILE,dtype="double",delimiter=",")
 data_set=tmp.transpose().tolist()
 data_set_dis=tmp.tolist()
 datax = data_set_dis[0]
-logger.info('fig size: {0} DPI, size in inches {1}'.format(
-  fig.get_dpi(), fig.get_size_inches()))
 
 #res_output=[]
 res_output_short=[]
@@ -110,7 +108,7 @@ def end_the_exp(agent,input_LIST):
 class myEny():
   def __init__(self):
 
-    tmp = np.loadtxt("data.csv", dtype="double", delimiter=",")
+    tmp = np.loadtxt('input_data/'+DATA_FILE, dtype="double", delimiter=",")
     self.data_set = tmp.transpose().tolist()
     self.data_set_dis = tmp.tolist()
 
@@ -300,7 +298,7 @@ def main():
   agent = DQN(env)
 
   # init_the_exp()
-  goal = [1.82546, 40.329, 1.250, 0.900]
+  goal=CONFIG['GOAL']
   def drawpic(ll=[],label=""):
     a1, a2, r1, r2 = ll
     formulation = lambda x: ((a2 * ((r2 - x) ** 3)) + (a1 * ((r1 - x) ** 3))) * (x < r2) + a1 * ((r1 - x) ** 3) * (

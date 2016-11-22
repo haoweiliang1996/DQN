@@ -1,0 +1,5 @@
+load the config
+path:log/11/22/11-22-15-04-09
+start time:11-22-15-04-09
+{'EPISODE': 40000, 'FINAL_EPSILON': 0.01, 'GOAL': [1.52546, 35.329, 0.25, 1.1], 'STEP_SIZE': 0.025, 'INITIAL_EPSILON': 0.35, 'MODEL_SAVE': True, 'STEP': 2400, 'TEST': 10, 'GAMMA': 0.9, 'BOUND_RANGE': [100, 100], 'BATCH_SIZE': 16, 'INITIAL_VAULE': [0, 100, 0, 0], 'REPLAY_SIZE': 50000, 'GBEST_USED': False, 'DATA_FILE': 'data_cmp.csv', 'TEST_BATCH_SIZE': 100, 'OK_EPS': 1.0}
+env init ok

@@ -28,7 +28,8 @@ d['EPISODE'] = 20000*2#10000#5000#10000 # Episode limitation
 d['TEST'] = 10 # The number of experiment test every 100 episode
 
 d['INITIAL_VAULE']=[0,100,0,0]
-
+d['GOAL']=  [1.52546, 35.329, 0.250, 0.700]#[1.82546, 40.329, 1.250, 0.900]
+d['DATA_FILE']='data.csv'
 print(str(d))
 print(hash(str(d)))
 training_day=time.strftime("%d",time.localtime(time.time()))
